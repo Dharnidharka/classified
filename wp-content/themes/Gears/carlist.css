@@ -1,0 +1,128 @@
+/* cAR Filter */
+
+#browselist{
+height:80px;
+background:url(images/filter.png) repeat-x;
+}
+
+.listin{
+	width:175px;
+	float:left;
+	margin:20px 0px 0px 20px;
+	
+}
+
+.listin span{
+font-size:10px;
+text-transform:uppercase;
+color:#fff;
+
+
+}
+
+.listin select{
+	width:170px;
+	margin-top:5px;
+}
+/* Index page  */
+
+.carbox{
+padding:10px;
+background:#fff;
+position:relative;
+margin-bottom:20px;
+}
+
+.archimg{
+ width:350px;
+ float:left;
+ position:relative;
+}
+
+.arc-title{
+font-family:RobotoBoldCondensed;
+width:330px;
+position:absolute;
+bottom:0px;
+left:0px;
+background:url(images/trans.png);
+padding:10px 10px;
+}
+
+.arc-title h2 a:link, .arc-title h2 a:visited{
+color:#fff;
+}
+
+.cover{
+ width:270px;
+ float:left;
+ margin-left:10px;
+}
+
+.boxentry{
+padding:5px 10px;
+line-height:160%;
+}
+.propmeta .proplist{
+ padding:7px 10px;
+ font-size:10px;
+ border-bottom:1px solid #ddd;
+ font-family:RobotoRegular;
+ text-transform:uppercase;
+ font-weight:bold;
+}
+
+.proplist span.propval{
+color:#777;
+}
+.arc-condition{
+background:url(images/ribbon.png);
+position:absolute;
+left:-10px;	
+top:20px;
+height:30px;
+width:70px;
+z-index:200;
+padding-top:5px;
+padding-left:25px;
+}
+
+.arc-condition span{
+color:#fff;
+text-transform:uppercase;
+font-size:14px;
+font-family:arial;
+font-weight:bold;
+}
+.car-price{
+font-family:RobotoBoldCondensed;
+padding:5px 15px;
+background:#222;
+color:#fff;
+font-size:22px;
+position:absolute;
+right:0px;
+bottom:0px;	
+}
+
+/* car single */
+
+.cardetails{
+background:#222;
+padding:10px 20px 20px 20px;
+border-top:1px solid #000;
+}
+
+.cardetails span{
+ display:block;
+ float:left;
+ width:300px;
+ margin-right:10px;
+ padding:8px 0px;
+ border-bottom:1px solid #333;
+ color:#fff;
+}
+
+.cardetails span a:link, .cardetails span a:visited{
+	color:#fff;
+}
